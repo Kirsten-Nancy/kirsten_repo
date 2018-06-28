@@ -14,98 +14,225 @@
 
     <!--aos animation library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="white">
+<body>
+    <nav class="navbar p-2 bg-dark navbar-expand-md navbar-dark fixed-top">
+        <a href="#" class="navbar-brand">
+            <h4>
+                Kirsten Nancy
+            </h4>
+        </a>
 
-    <marquee>
-        <h1 style="color:black">More than friends,family。。。我的家人</h1>
-    </marquee>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <p title="I'm a tooltip" style="color:gray">To the craziest people : 我爱你们</p>
-    <p style="text-align:center"><i>LIFE STORY</i></p>
-    <p style="font-family:verdana">
-        <b><q>我们的生活，可能好，可能糟，但最棒的是，我们总还有选择。生活不会像你以为那么糟，也不会你想像那么好。
-  再难解的乱麻都会慢慢解开，再巨大的痛苦也会慢慢消散，当然，再甜蜜的甜蜜，有一天也会归于平淡。<br>这是你我所拥有的生活。</q></b>
-        <div class="container">
-            <h3>DESKIE</h3>
-            <img src="photos/Lucy.jpg" class="img-circle" width="304" height="236">
-            <p>I have had many deskmates in my life but you have turned out to be the best of all.Tumetoka mbali and we still have a long way to go.love you Deskie.</p>
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Deskie">Deskie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Miley">Miley</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Mitch">Mitch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Leah">Leah</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Essy">Essy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Fabian">Fabian</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Mesh">Mesh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Jayr">Jayr</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Ian">Ian</a>
+                </li>
+            </ul>
         </div>
 
-        <p>
-            <h6><b>MILEY PAPES</b></h6>
+    </nav>
 
-            <img src="photos/Papes.jpg" width="400px" height="300px"> Papes si unajua ni wewe tu...aki io hall 4 tunajua tu kwenye tumetoka Papes..nimekumiss sana na si unajua mapenzi yetu iko tu bado hehe
+    <br>
+    <br>
+
+
+    <marquee class="pt-4">
+        <h4 style="color:black">
+            More than friends,family。。。我的家人
+        </h4>
+    </marquee>
+
+    <div class="text-center">
+        <p title="To the craziest friends" class="text-secondary">
+            To the craziest people : 我爱你们
         </p>
-        <p>
-            <h6><b>MITCH</b></h6>
-            <img src="photos/Mitch.jpg" width="304" height="236"> Sijui nitablame bangi ama nini hehe but you are the craziest person but i still love your craziness and you. Thank you for being there for watu kama sisi.
-            <p>
-                <h6><b>LEAH</b></h6>
-                <img src="photos/Leah.jpg" width="400px" height="300px"> To the kindest and brighest of souls...glad to have you as a friend.
-            </p>
-            <p>
-                <h6><b>ESSY</b></h6>
-                <img src="photos/Essy.png" width="400px" height="300px"> You brought life and light kwa ii rende yetu...we were too dark hehe...sijapoint mtu. To the liviest and outgoing person kwa group.
-            </p>
-            <p>
-                <h6><b>MESH</b></h6>
-                <img src="photos/Mesh.jpg" width="400px" height="300px"> What can i say...the dry jokes that we still end up laughing at... to the kindest and best person ive met in this life. I'm glad to have you as a friend.
-            </p>
-            <p>
-                <h6><b>JAYR</b></h6>
-                <img src="photos/Jayr.jpg" width="400px" height="300px"> I'm sorry i haven't been there for you this past year, but know i'm proud of you. You are the strongest person i've ever met.
-            </p>
+    </div>
+
+    <h3 class="text-center">
+        LIFE STORY
+    </h3>
+
+    <div class="container">
+
+        <blockquote class="blockquote">
+            <b>
+            我们的生活，可能好，可能糟，但最棒的是，我们总还有选择。生活不会像你以为那么糟，也不会你想像那么好。
+            再难解的乱麻都会慢慢解开，再巨大的痛苦也会慢慢消散，当然，再甜蜜的甜蜜，有一天也会归于平淡。<br>这是你我所拥有的生活。
+        </b>
+        </blockquote>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-1"></div>
+            <div class="col-md-3 m-2">
+                <div id="Deskie" data-aos="fade-left" class="grid-item pb-3" data-aos-duration="2000">
+                    <figure class="">
+                        <h6><b>DESKIE</b></h6>
+                        <img src="photos/Lucy.jpg" class="figure-img rounded" width="400px" height="300px">
+                        <figcaption class="figure-caption">I have had many deskmates in my life but you have turned out to be the best of all.Tumetoka mbali and we still have a long way to go.love you Deskie.</p>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3 m-2">
+                <div id="Miley" data-aos="fade-left" class="pb-3" data-aos-duration="2000">
+                    <figure class="figure">
+
+                        <h6><b>MILEY PAPES</b></h6>
+
+                        <img src="photos/Papes.jpg" class="figure-img rounded " width="400px" height="300px">
+                        <figcaption class="figure-caption">
+                            Papes si unajua ni wewe tu...aki io hall 4 tunajua tu kwenye tumetoka Papes..nimekumiss sana na si unajua mapenzi yetu iko tu bado hehe
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="Mitch" data-aos="fade-left" data-aos-duration="2000">
+                    <h6><b>MITCH</b></h6>
+                    <img src="photos/Mitch.jpg" width="400px" height="300px"> Sijui nitablame bangi ama nini hehe but you are the craziest person but i still love your craziness and you. Thank you for being there for watu kama sisi.
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+        <br>
+        <br>
+
+
+
+
+
+
+
+        <div id="Leah" data-aos="fade-left" data-aos-duration="2000">
+            <h6><b>LEAH</b></h6>
+            <img src="photos/Leah.jpg" width="400px" height="300px"> To the kindest and brighest of souls...glad to have you as a friend.
+        </div>
+
+        <div id="Essy" data-aos="fade-left" data-aos-duration="2000">
+            <h6><b>ESSY</b></h6>
+            <img src="photos/Essy.png" width="400px" height="300px"> You brought life and light kwa ii rende yetu...we were too dark hehe...sijapoint mtu. To the liviest and outgoing person kwa group.
+        </div>
+
+        <div id="Fabian" data-aos="fade-left" data-aos-duration="2000">
             <h6><b>FABIAN</b></h6>
             <img src="photos/Fabian.jpg" width="400px" height="300px"> To a former classmate,to my friend,teacher hehe...to the brighest of minds...ukiwa kua kama Bill Gates nishakubook kama sponsor mapema nisirukwe mimi.
-        </p>
-        <p>
+        </div>
+
+        <div id="Mesh" data-aos="fade-left" data-aos-duration="2000">
+            <h6><b>MESH</b></h6>
+            <img src="photos/Mesh.jpg" width="400px" height="300px"> What can i say...the dry jokes that we still end up laughing at... to the kindest and best person ive met in this life. I'm glad to have you as a friend.
+        </div>
+
+        <div id="Jayr" data-aos="fade-left" data-aos-duration="2000">
+            <h6><b>JAYR</b></h6>
+            <img src="photos/Jayr.jpg" width="400px" height="300px"> I'm sorry i haven't been there for you this past year, but know i'm proud of you. You are the strongest person i've ever met.
+        </div>
+
+        <div id="Ian" data-aos="fade-left" data-aos-duration="2000">
             <h6><b>IAN</b></h6>
             <img src="photos/Ian.jpg" width="400px" height="300px"> To MCA wa group...leader..nimeona utakua ka governor ivi...ukumbuke wengine wetu ukifika uko hehe
-        </p>
-        <img src="photos/Deskie.jpg" width="400px" height="300px">
-        <img src="photos/Mit.jpg" width="400px" height="300px">
-        <p>
+        </div>
+
+        <div data-aos="fade-left" data-aos-duration="2000">
+            <img src="photos/Deskie.jpg" width="400px" height="300px">
+            <img src="photos/Mit.jpg" width="400px" height="300px">
             <h6><b>CLASSMATES</b></h6>
             <img src="photos/school.jpg" width="400px" height="300px"> To the best classmates..for life
-        </p>
-        <p>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000">
             <h6><b>FAMILY</b></h6>
             <img src="photos/ppl.jpg" width="400px" height="300px"> All of you are more than just friends you are family.Love you all.
-        </p>
-        <p>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000">
             To Fabs website
             <a href="http://www.fabdesignskenya.co.ke" target="_top"> Fabian Website</a>
-        </p>
-        <div id="disqus_thread"></div>
-        <script>
-            /**
-             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        </div>
+    </div>
 
-            var disqus_config = function() {
-                this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
-            (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document,
-                    s = d.createElement('script');
-                s.src = 'https://prac1-html.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
+        var disqus_config = function() {
+            this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
 
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document,
+                s = d.createElement('script');
+            s.src = 'https://prac1-html.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
 
-        </script>
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                if (this.hash !== "") {
+                    event.preventDefault();
+
+                    var hash = this.hash;
+
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+
+    </script>
 </body>
 
 
