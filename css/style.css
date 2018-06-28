@@ -3,8 +3,13 @@
   margin: 0;
 }
 
-body {
+body,
+html,
+footer {
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
 }
 
 .top-img {
@@ -18,7 +23,7 @@ body {
   grid-template-columns: auto auto auto;
   width: 100%;
   margin-left: -1px;
-  grid-row-gap: 50px;
+  grid-row-gap: ;
   grid-column-gap: 10px;
 }
 
@@ -28,7 +33,7 @@ body {
 
 .footer {
   width: 50%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 720px) {

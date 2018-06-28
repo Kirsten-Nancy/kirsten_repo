@@ -16,6 +16,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -93,11 +94,14 @@
             </div>
         </div>
     </section>
-    <marquee>
-        <h4>
-            More than friends,family。。。我的家人
-        </h4>
-    </marquee>
+    <div class="container">
+        <marquee>
+            <h4>
+                More than friends,family。。。我的家人
+            </h4>
+        </marquee>
+    </div>
+
 
     <br>
     <br>
@@ -109,7 +113,7 @@
             <figure class="figure">
                 <h6><b>DESKIE</b></h6>
                 <img src="photos/Lucy.jpg" class="figure-img rounded" width="400px" height="300px">
-                <figcaption class="figure-caption">I have had many deskmates in my life but you have turned out to be the best of all.Tumetoka mbali and we still have a long way to go.love you Deskie.</p>
+                <figcaption class="figure-caption">I have had many deskmates in my life but you have turned out to be the best of all.Tumetoka mbali and we still have a long way to go.love you Deskie.</figcaption>
             </figure>
 
         </div>
@@ -213,12 +217,12 @@
 
             </div>
 
-            <div class="">
+            <div class="text-center">
 
                 <img src="photos/Mit.jpg" width="400px" height="300px" class="img-thumbnail">
             </div>
 
-            <div class="">
+            <div class="text-center">
                 <img src="photos/school.jpg" width="400px" height="300px" class="img-thumbnail">
                 <div class="text-center last-img pt-3" data-aos="fade-left" data-aos-duration="2000">
                     <figure class="figure">
@@ -288,27 +292,7 @@
         AOS.init();
 
     </script>
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
 
-                if (this.hash !== "") {
-                    event.preventDefault();
-
-                    var hash = this.hash;
-
-
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function() {
-                        window.location.hash = hash;
-                    });
-                }
-            });
-        });
-
-    </script>
 </body>
 
 
